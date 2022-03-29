@@ -13,6 +13,8 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
     testImplementation "io.github.bonigarcia:webdrivermanager:5.1.0"
     implementation 'com.codeborne:selenide:6.3.5'
+    implementation 'com.github.javafaker:javafaker:1.0.2'
+    compileOnly 'org.projectlombok:lombok:1.18.22'
 }
 
 test {
