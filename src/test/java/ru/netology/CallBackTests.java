@@ -27,6 +27,8 @@ public class CallBackTests {
 
     @BeforeAll
     private static void startUp(){
+        TrueCity tryMe = new TrueCity();
+        boolean ty = tryMe.testIt("a");
      //   List<String> result = Files.lines(Paths.get("Main.txt"), StandardCharsets.UTF_8).collect(Collectors.toList());
      //   System.out.println();
 //        public Date future(int atMost, TimeUnit unit) {
@@ -55,8 +57,10 @@ public class CallBackTests {
         open("http://localhost:9999");
       // Date now =  LocalDate.now();
      //   Date aBitLaterThanNow = now.
+
         Faker ghostOne = new Faker(new Locale("RU"));
         //dummy = new
+
         //   now = ghostOne.date().between(now.)
          dummy = new FellowOne(
                 ghostOne.name().firstName()+" "+ghostOne.name().lastName(),

@@ -1,6 +1,6 @@
 package ru.netology;
 
-import lombok.AllArgsConstructor;
+import  lombok.AllArgsConstructor;
 import lombok.Data;
 
 
