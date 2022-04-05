@@ -3,6 +3,7 @@ package ru.netology;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class TrueCity {
     private String[] cities = {
@@ -83,8 +84,8 @@ public class TrueCity {
             "Челябинск",
             "Ярославль"};
     private List<String> listOfCities = Arrays.asList(cities);
-    public boolean testIt(String City) {
-        return listOfCities.contains(City);
+    public String ValidCity() {
+        return listOfCities.get((int) (Math.random()*cities.length));
     }
 
 }
